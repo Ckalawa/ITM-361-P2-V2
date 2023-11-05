@@ -9,6 +9,135 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "AlphaClouds";
+    src: url("https://db.onlinewebfonts.com/t/f430f9795c4bd65e6e4192aa0073cd4d.eot");
+    src: url("https://db.onlinewebfonts.com/t/f430f9795c4bd65e6e4192aa0073cd4d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f430f9795c4bd65e6e4192aa0073cd4d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f430f9795c4bd65e6e4192aa0073cd4d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f430f9795c4bd65e6e4192aa0073cd4d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f430f9795c4bd65e6e4192aa0073cd4d.svg#AlphaClouds")format("svg");
+}
+
+.resume  ul li {
+	font-family: Verdana, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 1em;
+}
+resume h1 {
+	font-family: Verdana, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 8em;
+	
+}
+
+.resume h2 {
+	font-family: Verdana, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 6em;
+}
+
+.resume h3 {
+    font-family: Verdana, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 4em;
+}
+ 
+.resume p {
+	font-family: Verdana, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 1em;
+}
+
+  h1 {
+	font-family: Verdana, sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 10em;
+	
+}
+
+  h2 {
+	font-family: "AlphaClouds";
+	color: white;
+	text-align: center;
+	font-size: 8em;
+}
+
+  h3 {
+    font-family: "AlphaClouds";
+	color: White;
+	font-size: 2em;
+}
+ 
+   p {
+	font-family: Verdana, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 1em;
+}
+
+   ul li {
+	font-family: Verdana, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 1em;
+} 
+
+#menu ul {
+    list-style-type: none;
+    background: #87CEEB;
+    width: 100%; 
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+#menu ul li {
+    width: 33.33%; 
+}
+
+#menu ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px 0; 
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, sans-serif;
+    width: 100%; 
+}
+
+#menu a:hover {
+    background-color: white;
+    color: black;
+}
+  
+  #taglineB h3 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #taglineA h3 {
+    position: absolute;
+    top: 250px;
+    left: 30%;
+  }
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -22,18 +151,17 @@ article {
     position: relative;
     perspective: 1000px;
     width: 450px;
-    height: 300px;
+    height: 45s0px;
 }
 
-/* Center the images inside the card container */
+
 .article figure {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center; 
     height: 100%;
 }
 
-/* Adjust image styling, if necessary */
 .article figure img {
     max-width: 100%;
     max-height: 100%;
@@ -48,7 +176,7 @@ article .front {
     bottom: 0;
     text-align: left;
     backface-visibility: hidden;
-    background: #ffffff;
+    background: rgb(255, 255, 255, .5);
     padding: 24px;
     transition: .06s;
     border-radius: 10px;
@@ -58,30 +186,32 @@ article .front {
     background: #ffffff;
     padding: 24px;
     border-radius: 10px;
-    transform: rotateY(180deg); /* Start with the back content flipped away */
-    opacity: 0; /* Initially hide the back content */
+    transform: rotateY(180deg); 
+    opacity: 0; 
     transition: transform 0.6s, opacity 0.6s;
 }
 
 .article:hover .front {
-    transform: rotateY(180deg); /* Flip the front content out of view */
-    opacity: 0; /* Hide the front content on hover */
+    transform: rotateY(180deg); 
+    opacity: 0; 
 }
 
 .article:hover .back {
-    transform: rotateY(0deg); /* Flip the back content into view */
-    opacity: 1; /* Make the back content visible on hover */
+    transform: rotateY(0deg); 
+    opacity: 1; 
 }
 
 .boeing {
-	position: absolute;
-	top: 20px;
-	right: 20%;
-	height: 400px;
-	width: 900px;
+    position: absolute;
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 500 px;
+
 }
 
-.b717{
+.b717 {
     width: 400px;
   }
   
@@ -114,9 +244,7 @@ article .front {
   }
   
   .cloud4 {
-    float: none;
     width: 100%;
-    overflow: hidden;
   }
   
   .cloud1 {
@@ -133,7 +261,7 @@ article .front {
   
   .cloud3 {
     float: none;
-    width: 1500px;
+    width: 100%;
     height: 500px;
     overflow: hidden;
   }
