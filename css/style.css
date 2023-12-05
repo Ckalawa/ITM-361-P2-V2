@@ -134,8 +134,8 @@ resume h1 {
   }
   #taglineA h3 {
     position: absolute;
-    top: 250px;
-    left: 30%;
+    top: 350px;
+    left: 40%;
   }
 
 .card-grid {
@@ -182,6 +182,14 @@ article .front {
     border-radius: 10px;
 }
 
+body index {
+  margin-top: 50px; /* Adjust this value to your liking */
+}
+
+#info {
+  margin-top: 80px; /* Adjust this value to leave space for the fixed navbar */
+}
+
 .back {
     background: #ffffff;
     padding: 24px;
@@ -208,6 +216,14 @@ article .front {
     transform: translate(-50%, -50%);
     height: 400px;
     width: 500 px;
+}
+
+.airbus {
+  position: absolute;
+  height: 200px;
+  width: 100 px;
+  left: 22.5%;
+  top: 15%;
 }
 
 .b717 {
@@ -242,6 +258,38 @@ article .front {
     width: 400px;
   }
   
+  .a220 {
+    width: 400px;
+  }
+
+  .a300 {
+    width: 400px;
+  }
+
+  .a310 {
+    width: 400px;
+  }
+
+  .a320 {
+    width: 400px;
+  }
+
+  .a330 {
+    width: 400px;
+  }
+
+  .a340 {
+    width: 400px;
+  }
+
+  .a350 {
+    width: 400px;
+  }
+
+  .a380 {
+    width: 400px;
+  }
+
   .cloud4 {
     width: 100%;
   }
