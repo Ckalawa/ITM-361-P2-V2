@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCntuOHItSS1TCaSpDvdbY4Qi7u2IKDbTQ&callback=console.debug&libraries=maps,marker&v=beta"></script>
+      <title>O'HARE</title>
+   </head>
+      <nav id="menu">
+         <div id="menu-map">
+            <ul>
+               <li><strong><a href="index.html">RESUME</a></strong></li>
+               <li><strong><a href="boeing.html">BOEING</a></strong></li>
+               <li><strong><a href="airbus.html">AIRBUS</a></strong></li>
+               <li><strong><a href="map.html">MAP</a></strong></li>
+            </ul>
+         </div>
+      </nav>
+      <body class="map">
+         <gmp-map center="41.98100662231445,-87.90554809570312" zoom="14" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="41.98100662231445,-87.90554809570312" title="My location">
+            </gmp-advanced-marker>
+         </gmp-map>
+   </body>
+</html>
