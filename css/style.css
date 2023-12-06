@@ -215,13 +215,13 @@ body index {
     left: 50%; 
     transform: translate(-50%, -50%);
     height: 400px;
-    width: 500 px;
+    width: 500px;
 }
 
 .airbus {
   position: absolute;
   height: 200px;
-  width: 100 px;
+  width: 900px;
   left: 22.5%;
   top: 15%;
 }
@@ -331,3 +331,39 @@ body index {
     margin: 10px;
     padding: 40px;
   } 
+
+  @media only screen and (min-width: 800px) {
+    header {
+        font-size: 24px;
+    }
+
+    main {
+        font-size: 18px;
+    }
+
+    section {
+        border-width: 2px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+      padding: 20px;
+  }
+
+  main {
+      margin: 40px;
+  }
+
+  section {
+      padding: 20px;
+  }
+
+  footer {
+      padding: 20px;
+  }
+}
