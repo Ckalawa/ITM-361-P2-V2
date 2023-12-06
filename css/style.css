@@ -226,6 +226,13 @@ body index {
   top: 15%;
 }
 
+.Aplanes { 
+ position: absolute;
+ top: 50%; 
+ left: 50%; 
+ transform: translate(-50%, -50%);
+}
+
 .b717 {
     width: 400px;
   }
@@ -259,35 +266,35 @@ body index {
   }
   
   .a220 {
-    width: 400px;
+    width: 900px;
   }
 
   .a300 {
-    width: 400px;
+    width: 900px;
   }
 
   .a310 {
-    width: 400px;
+    width: 900px;
   }
 
   .a320 {
-    width: 400px;
+    width: 900px;
   }
 
   .a330 {
-    width: 400px;
+    width: 900px;
   }
 
   .a340 {
-    width: 400px;
+    width: 900px;
   }
 
   .a350 {
-    width: 400px;
+    width: 900px;
   }
 
   .a380 {
-    width: 400px;
+    width: 900px;
   }
 
   .cloud4 {
